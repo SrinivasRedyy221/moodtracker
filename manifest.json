@@ -1,0 +1,19 @@
+{
+  "name": "Mood Tracker",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Track your daily mood and emotional well-being.",
+  "icons": {
+    "16": "mood16.png",
+    "32": "mood32.png",
+    "48": "mood48.png",
+    "128": "mood128.png"
+  },
+  "browser_action": {
+    "default_icon": "mood16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
